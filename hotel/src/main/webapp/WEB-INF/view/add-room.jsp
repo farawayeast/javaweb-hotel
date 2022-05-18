@@ -12,6 +12,7 @@
             <span>Room  Price:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"   placeholder="Please enter the room price" name="amount" style="margin-left: 16px"/><br>
             <br/>
             <input type="submit" name="" value="submit">
+            <input type="button" name="Submit" onclick="javascript:history.back(-1);" value="Home">
         </form>
     </div>
     </body>
