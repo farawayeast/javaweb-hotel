@@ -35,7 +35,9 @@
 
     </tbody>
 </table>
-
+<div style="text-align:center;vertical-align:middle;">
+<input type="button" name="Submit" onclick="javascript:history.back(-1);" value="Home">
+</div>
 </body>
 </html>
 <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-2.2.1.min.js"></script>
@@ -58,7 +60,7 @@
     str += '<td>' + "${room.roomType}" + '</td>'
     str += '<td>' + "${room.phone}" + '</td>'
     str += '<td>' + "${room.amount}" + '</td>'
-    str +='<td><button type="submit" onclick="deleteRoom(${ room.id })">删除</button> </td>'
+    str +='<td><button type="submit" onclick="deleteRoom(${ room.id })">Delete</button> </td>'
     </c:forEach>
     str += '</tr>';
     // 将定义好的内容,写入到taody标签中
